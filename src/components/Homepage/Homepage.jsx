@@ -16,7 +16,7 @@ export const Homepage = () => {
     { src: "/Assets/24-hours.png", title: "Great Support 24/7", details: "We care your expriences" },
     { src: "/Assets/shield.png", title: "Secure payment", details: "100% secure payment method" },
   ];
-  const restaurantInfo = [
+   const restaurantInfo = [
     {
       "id": 1,
       "title": "Trattoria dall'Oste",
@@ -152,7 +152,7 @@ export const Homepage = () => {
               <br />
               <p className="text-sm font-normal font-sans text-gray-500">Check your city Near by Restaurant</p>
             </h2>
-            <a href="#" className="text-green-500 hover:underline">See All</a>
+            <a href="/restaurants" className="text-gray-500 hover:underline">See All</a>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
             {restaurantInfo.map((restaurant) => (
